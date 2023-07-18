@@ -100,7 +100,6 @@ img {
 
 .header-nav {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 
@@ -123,7 +122,6 @@ img {
 .header-nav__list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .header-nav__item {
