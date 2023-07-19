@@ -208,7 +208,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(
-      to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
