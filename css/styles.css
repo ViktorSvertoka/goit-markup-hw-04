@@ -667,7 +667,7 @@ img {
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-  background-color: #fcfcfc;
+  background-color: var(--color-dairy);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -677,16 +677,14 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 24px;
   height: 24px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #e7e9fc;
+  background-color: var(--color-cornflower);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -694,9 +692,9 @@ img {
 
 .modal__button-close:hover,
 .modal__button-close:focus {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   border: none;
-  fill: #ffffff;
+  fill: var(--color-white);
 }
 
 .modal__icon-close {
@@ -706,5 +704,5 @@ img {
 
 .modal__button-close:hover .modal__icon-close,
 .modal__button-close:focus .modal__icon-close {
-  fill: #ffffff;
+  fill: var(--color-white);
 }
