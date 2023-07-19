@@ -131,9 +131,6 @@ img {
   gap: 40px;
 }
 
-.header-nav__item {
-}
-
 .header-nav__link {
   color: var(--color-navy-blue);
   font-weight: 500;
@@ -175,9 +172,6 @@ img {
 .header-contacts__list {
   display: flex;
   gap: 40px;
-}
-
-.header-contacts__item {
 }
 
 .header-contacts__link {
@@ -273,9 +267,6 @@ img {
   margin-bottom: 8px;
 }
 
-.company__icon {
-}
-
 .company__title {
   color: var(--color-navy-blue);
   font-weight: 500;
@@ -311,12 +302,6 @@ img {
   gap: 24px;
 }
 
-.works__item {
-}
-
-.works__image {
-}
-
 .team {
   background-color: var(--color-cloud);
   padding: 120px 0;
@@ -349,9 +334,6 @@ img {
 
 .team__wrapper {
   padding: 32px 0;
-}
-
-.team__image {
 }
 
 .team__specialist {
@@ -491,9 +473,6 @@ img {
   width: 264px;
 }
 
-.footer__icon-wrapper {
-}
-
 .footer__icon-text {
   font-weight: 500;
   font-size: 16px;
@@ -547,9 +526,6 @@ img {
   margin-bottom: 72px;
 }
 
-.gallery-filter__item {
-}
-
 .gallery-filter__button {
   color: var(--color-iris);
   background-color: var(--color-cloud);
@@ -582,9 +558,6 @@ img {
   gap: 48px 24px;
 }
 
-.gallery__item {
-}
-
 .gallery__link {
   cursor: pointer;
   display: block;
@@ -605,9 +578,6 @@ img {
 .gallery__overley-wrapper {
   position: relative;
   overflow: hidden;
-}
-
-.gallery__image {
 }
 
 .gallery__overley-text {
