@@ -134,11 +134,28 @@ img {
   line-height: 1.5;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 }
 
 .header-nav__link:hover,
 .header-nav__link:focus {
   color: var(--color-ocean);
+}
+
+.header-nav__link.current {
+  color: var(--color-ocean);
+}
+
+.header-nav__link.current::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--color-ocean);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
 
 .header-contacts {
