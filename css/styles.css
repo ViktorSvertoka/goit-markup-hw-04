@@ -587,19 +587,17 @@ img {
 
 .gallery__link {
   cursor: pointer;
-  transform: translateY(100%);
+  display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery__link:hover .gallery__wrapper {
+.gallery__link:hover,
+.gallery__link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.gallery__link:hover .gallery__overley-text {
-  transform: translateY(0);
-}
-
+.gallery__link:hover .gallery__overley-text,
 .gallery__link:focus .gallery__overley-text {
   transform: translateY(0);
 }
@@ -610,7 +608,6 @@ img {
 }
 
 .gallery__image {
-  display: block;
 }
 
 .gallery__overley-text {
