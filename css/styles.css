@@ -135,6 +135,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav__link:hover,
@@ -179,6 +180,7 @@ img {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts__link:hover,
@@ -231,6 +233,7 @@ img {
   display: block;
   margin: 0 auto;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button:hover,
@@ -429,6 +432,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--color-light-slate);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
 }
@@ -549,6 +553,9 @@ img {
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
   padding: 12px 24px 12px 24px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-filter__button:hover,
@@ -659,16 +666,13 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translateX(-50%) translateY(-50%);
-
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   background-color: var(--color-dairy);
-
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -685,7 +689,6 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--color-cornflower);
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
